@@ -20,6 +20,7 @@ spec:
         prometheus.io/port: "9797"
       labels:
         app: backend
+        date: 00000000
     spec:
       containers:
       - name: backend
